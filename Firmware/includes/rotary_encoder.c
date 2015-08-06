@@ -8,6 +8,7 @@
 
 // ifdef is necessary because the makefile includes all c-files and this file
 // is not needed unless ROTARY_ENCODER is defined
+#include "../config.h"
 #ifdef ROTARY_ENCODER
 
 #include "rotary_encoder.h"
